@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/first_view4"
         android:id="@+id/forth_button"
-        android:onClick="forthbuttonclick"
+        android:onClick="forthbuttononclick"
         />
 
 </LinearLayout>

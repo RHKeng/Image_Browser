@@ -101,6 +101,11 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
         Third_Button.setBackgroundResource(R.drawable.second_view3);
     }
 
+    public void forthbuttononclick(View view)
+    {
+
+    }
+
     private void initEvent() {
         FirstButton.setOnClickListener(this);
         SecondButton.setOnClickListener(this);
