@@ -5,14 +5,12 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="这里是第三页"
-        android:layout_centerVertical="true"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="#000000"
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/first_view3"
+        android:id="@+id/third_button"
+        android:onClick="thirdbuttonclick"
         />
 
 </LinearLayout>

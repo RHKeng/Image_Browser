@@ -20,15 +20,16 @@
             android:layout_height="wrap_content"
             android:background="#00000000"
             android:clickable="false"
-            android:src="@drawable/browser_unpressed"
+            android:src="@drawable/first_pressed"
             android:id="@+id/first_image"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#00FFFF"
-            android:text="第一页"
+            android:text="全网"
+            android:textColor="#EE2C2C"
+            android:id="@+id/first_text"
             />
 
     </LinearLayout>
@@ -47,15 +48,16 @@
             android:layout_height="wrap_content"
             android:background="#00000000"
             android:clickable="false"
-            android:src="@drawable/browser_unpressed"
+            android:src="@drawable/second_unpressed"
             android:id="@+id/second_image"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="图片浏览"
-            android:textColor="#00EE76"
+            android:text="换乘查询"
+            android:textColor="#9C9C9C"
+            android:id="@+id/second_text"
             />
 
     </LinearLayout>
@@ -74,15 +76,44 @@
             android:layout_height="wrap_content"
             android:background="#00000000"
             android:clickable="false"
-            android:src="@drawable/browser_unpressed"
+            android:src="@drawable/third_unpressed"
             android:id="@+id/third_image"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#00CD00"
-            android:text="第三页"
+            android:text="线路"
+            android:textColor="#9C9C9C"
+            android:id="@+id/third_text"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/Browser_forth"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/forth_unpressed"
+            android:id="@+id/forth_image"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textColor="#9C9C9C"
+            android:id="@+id/forth_text"
             />
 
     </LinearLayout>

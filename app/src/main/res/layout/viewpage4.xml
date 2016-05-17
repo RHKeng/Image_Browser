@@ -8,9 +8,9 @@
     <ImageButton
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/first_view1"
-        android:id="@+id/first_button"
-        android:onClick="firstbuttonclick"
+        android:background="@drawable/first_view4"
+        android:id="@+id/forth_button"
+        android:onClick="forthbuttonclick"
         />
 
 </LinearLayout>
